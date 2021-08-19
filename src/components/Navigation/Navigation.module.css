@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.23rem 1.3rem;
+    width: 100%;
+    background-color: blueviolet;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.navigation a:hover {
+    text-decoration: underline;
+}
+.navigation button {
+    padding: .44rem .4rem;
+    border: 0;
+    background-color: violet;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 700;
+}
+a.active {
+    color: violet;
+}
