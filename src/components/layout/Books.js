@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Button from "../UI/Button";
 import classes from './Books.module.css';
+import BookItem from '../bookItems/BookItem';
 
 const Books = () => {
   return (
@@ -29,7 +30,13 @@ const Books = () => {
           </select>
         </div>
       </div>
-      {/* <div>bookitems</div> */}
+      <div className={classes.books}>
+        <ul className="card-list">
+          {/* {items.map(card => (
+            <BookItem key={card.id} {...card} isSelected={card.id === selectedId} />
+          ))} */}
+        </ul>
+      </div>
     </Fragment>
   );
 };
