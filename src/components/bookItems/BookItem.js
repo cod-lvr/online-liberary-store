@@ -17,16 +17,16 @@ const Bookitem = () => {
                 <Link to="/store/${book-name}" />
             </motion.div>
             <div className={classes["card-content-container open"]}>
-                <motion.div className={classes["card-content"]} layoutId={`card-container-${id}`}>
+                <motion.div className={classes["card-content"]} layoutId={`card-container`}>
                     <motion.div
                         className={classes["card-image-container"]}
-                        layoutId={`card-image-container-${id}`}
+                        layoutId={`card-image-container`}
                     >
-                        <img className={classes["card-image"]} src={`images/${id}.jpg`} alt="" />
+                        {/* <img className={classes["card-image"]} src={`images/${id}.jpg`} alt="" /> */}
                     </motion.div>
                 <motion.div
                     className={classes["title-container"]}
-                    layoutId={`title-container-${id}`}
+                    layoutId={`title-container`}
                 >
                     <span></span>
                     <h2></h2>
