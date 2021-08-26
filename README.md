@@ -1,4 +1,5 @@
 # online-liberary-store
+this project for online book store to display books and listen it online ( using react. js and api ).
 
 # Getting Started with Create React App
 
